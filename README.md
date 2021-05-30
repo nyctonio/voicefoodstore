@@ -1,6 +1,6 @@
 # VoicefoodStore
 
-## An Ai based FoodStore made for Blind people
+## An Ai based FoodStore made for Blind people using Alan AI
 
 ![image](https://user-images.githubusercontent.com/79045059/120094161-70d2e500-c13c-11eb-86c3-644783329abc.png)
 
