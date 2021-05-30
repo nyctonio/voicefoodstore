@@ -2,9 +2,9 @@
 
 ## An Ai based FoodStore made for Blind people using Alan AI
 
-##Aim Of the Project
+## Aim Of the Project
 This project is Design to of visually impaired People Can Order food by just their voice commonds. it also give the feedback when the order is added to card or being placed
-##Technology Behind it 
+## Technology Behind it 
 React- For frontend
 API used -allenai(Allen Institute For AI){ its an api for AI voice command }.
 
