@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <title>Nyctos</title>
+  </head>
+  <body >
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <!-- preloader section -->
+      <section class="preloader">
+        <div class="sk-spinner sk-spinner-pulse"></div>
+      </section>
+      
+      <!-- navigation section -->
+      <section class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon icon-bar"></span>
+              <span class="icon icon-bar"></span>
+              <span class="icon icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Nyctos</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home" class="smoothScroll">HOME</a></li>
+              <li><a href="#gallery" class="smoothScroll">FOOD GALLERY</a></li>
+              <li><a id="myBtn" class="smoothScroll">AI VOICE COMMANDS LIST</a></li>
+              <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            Command-1: show me the menu (to show the shopping list)<br>
+            Command-2: 'order/sort' by 'name/price/category' (to sort the list)<br>
+            Command-3: add 'item name' to the cart (to add to cart)<br>
+            Command-4: what is the price of 'item name' (to get the price)<br>
+            More commands adding soon<br>
+          </div>
+        </div>
+
+      </section>
+      
+      
+      
+      <!-- home section -->
+      <div id="root"> </div>
+     
+      
+      
+      
+      <!-- copyright section -->
+      <section id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <h3>Nyctos</h3>
+              <p>Designed and developed by Ritesh Kumar</p> 
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- JAVASCRIPT JS FILES -->	
+      <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+  </body>
+</html>
