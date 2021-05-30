@@ -1,4 +1,6 @@
-#VoicefoodStore
+# VoicefoodStore
+
+## An Ai based FoodStore made for Blind people
 
 ![image](https://user-images.githubusercontent.com/79045059/120094161-70d2e500-c13c-11eb-86c3-644783329abc.png)
 
@@ -9,3 +11,6 @@
 npm install
 npm start
 ```
+### Hosted On Netlify
+
+[View Deployment](https://condescending-mcnulty-3be88d.netlify.app/)
